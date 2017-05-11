@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DescriptionViewController.h
 //  PopoverPractice
 //
 //  Created by Syngmaster on 10/05/2017.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface DescriptionViewController : UIViewController
 
+- (IBAction)dismissAction:(UIButton *)sender;
 
 @end
-
